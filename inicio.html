@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="author" content="Diego" />
+    <meta
+      name="description"
+      content="Sitio para aprender a crear páginas web"
+    />
+    <meta
+      name="keywords"
+      content="Perifericos Gamer, html, css, componentes, PC"
+    />
+    <link rel="stylesheet" href="css/inicio.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="icon" href="img/Designer.jpeg" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="icon-logo">Periféricos Gamer</h1>
+      <div>
+        <input type="checkbox" id="menu-bar" class="menu-bar-checkbox" />
+        <label class="icon-menu" for="menu-bar"></label>
+        <nav class="menu menu-desplegable">
+          <a href="#banner">INICIO</a>
+          <a href="#nosotros">NOSOTROS</a>
+          <a href="#productos">PRODUCTOS</a>
+          <a href="#blog">BLOG</a>
+          <a href="#contacto">CONTACTO</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="banner" class="banner">
+        <div>Perifericos Gamer</div>
+      </section>
+      <section class="contenedor">
+        <h2>CONTENIDO</h2>
+        <p>
+          En esta pagina encontraras los diferentes tipos de perifericos que
+          hayan en el mercado y de sus caracteristicas
+        </p>
+        <a href="/contacto#">Leer mas</a>
+        <div class="contenido">
+          <img src="img/contenido 1.jpg" class="img-responsive" />
+          <img src="img/contenido 2.jpg" class="img-responsive" />
+          <img src="img/contenido 3.jpg" class="img-responsive" />
+        </div>
+        <br />
+      </section>
+
+      <section class="contenedor" id="productos">
+        <div class="divisor">
+          <h1>Bienvenidos a nuestro sitio web</h1>
+          <p>Aquí vas a encontrar todo lo que necesitas para tu marca</p>
+        </div>
+        <h2>Lo más visitado en nuestro sitio</h2>
+        <div class="articulos">
+          <article>
+            <img src="img/producto 1.jpeg" class="img-responsive" />
+            <h3>Tarjetas graficas que tenemos</h3>
+            <p>Tarjeta 3060 TI</p>
+          </article>
+
+          <article>
+            <img src="img/producto 2.png" class="img-responsive" />
+            <h3>Tarjetas graficas que tenemos</h3>
+            <p>Mouse RedDragon pro 5489</p>
+          </article>
+
+          <article>
+            <img src="img/producto 3.jpeg" class="img-responsive" />
+            <h3>Tarjetas graficas que tenemos</h3>
+            <p>Tarjeta 4060 TI</p>
+          </article>
+
+          <article>
+            <img src="img/producto 4.webp" class="img-responsive" />
+            <h3>Tarjetas graficas que tenemos</h3>
+            <p>Diademas gamer pro</p>
+          </article>
+        </div>
+      </section>
+      <section class="nosotros" id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>
+          En <strong>Periféricos Gamers</strong>, somos apasionados del gaming y
+          de ofrecerte los mejores accesorios para potenciar tu experiencia.
+          Desde teclados mecánicos y ratones de alta precisión, hasta
+          auriculares con sonido envolvente, seleccionamos cuidadosamente cada
+          producto para cumplir con las necesidades de los jugadores más
+          exigentes.
+        </p>
+        <p>
+          Nuestro objetivo es proporcionarte herramientas de calidad, innovación
+          y estilo para que alcances tu máximo potencial en cada partida.
+        </p>
+        <div class="vision-mision">
+          <div class="vision">
+            <h3>Visión</h3>
+            <p>
+              Ser la marca líder en periféricos gamers en América Latina,
+              reconocida por la calidad y confianza de nuestros productos.
+            </p>
+          </div>
+          <div class="mision">
+            <h3>Misión</h3>
+            <p>
+              Inspirar y equipar a los jugadores de todos los niveles con
+              periféricos diseñados para superar cualquier desafío.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="blog" class="contenedor">
+        <h2>Nuestro Blog</h2>
+        <div class="articulos">
+          <article>
+            <h3>Guía de compra de periféricos</h3>
+            <p>Descubre cómo elegir el mejor equipo para tu setup gamer.</p>
+            <a href="#">Leer más</a>
+          </article>
+
+          <article>
+            <h3>Novedades 2024 en gaming</h3>
+            <p>Los dispositivos más esperados para el próximo año.</p>
+            <a href="#">Leer más</a>
+          </article>
+
+          <article>
+            <h3>Cómo optimizar tu setup</h3>
+            <p>Consejos prácticos para mejorar tu experiencia de juego.</p>
+            <a href="#">Leer más</a>
+          </article>
+        </div>
+      </section>
+      <section id="contacto" class="contenedor contacto">
+        <h2>Contáctanos</h2>
+        <form class="formulario">
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Tu nombre"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Correo Electrónico:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Tu correo"
+              required
+            />
+          </div>
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              placeholder="Tu mensaje"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+      </section>
+      <footer class="footer">
+        <p>&copy; 2024 Perifericos Gamer. Todos los derechos reservados.</p>
+      </footer>
+    </main>
+  </body>
+</html>
